@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/txtTitle"
+        android:text="Admin Form"
+        android:textAlignment="center"
+        android:textSize="50px"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"
+        android:id="@+id/image"
+        android:src="@drawable/india"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/txtFirstName"
+        android:hint="First Name"
+        android:layout_gravity="center"
+        android:textSize="50px"/>
+
+    <EditText
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/txtLastName"
+        android:hint="Last Name"
+        android:layout_gravity="center"
+        android:textSize="50px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:id="@+id/txtCity"
+            android:hint="City"
+            android:layout_marginLeft="180px"
+            android:layout_marginRight="100px"
+            android:layout_gravity="center"
+            android:textSize="50px"/>
+        <EditText
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:id="@+id/txtPincode"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:textSize="50px"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/txtDate"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="50px"/>
+    <Button
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/btnDatePicker"
+        android:text="DatePicker"
+        android:layout_gravity="center"
+        android:textSize="50px"/>
+    <Button
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:textSize="50px"/>
+
+
+</LinearLayout>
